@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> Codificador e Decodificador de texto 🔓 🔑</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="/imagens/favicon.png"> 
+    </head>
+        
+    <body>
+        <header>
+            <img class="logo" src="/imagens/logo-alura.svg" alt="logo da alura">
+            <h1 class="title">Codificador e Decodificador de texto 🔓 🔑</h1>
+        </header>
+        
+
+        <div class="main"> 
+            
+                <div class="encrypt">
+                    <textarea cols="10" name="" id="txt-area1" placeholder="Digite seu texto..." class="line text-animation"></textarea>
+            
+                    <div class="info">
+                        <img src="/imagens/exclamation.svg" alt="ponto de exclamação" width="12px" >
+                        <p >Apenas letras minúsculas e sem acento.</p>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="button btn-1">Criptografar</button>
+                        <button class="button btn-2">Descriptografar</button>
+                    </div>
+                </div>
+            
+        </div>
+            
+        
+        <div id="decrypt">
+            <img class="icone" id="icone" src="/imagens/lupa.svg" alt="imagem procurando com lupa">
+            <h2 id="none">Nenhuma mensagem encontrada</h2>
+            
+            <textarea cols="10" readonly name="" id="txt-area2" placeholder="[Digite um texto que você deseja criptografar ou descriptografar]"></textarea>
+    
+            <h3 id="msg"></h3>
+
+            <div id="copy"></div>
+        </div>   
+                
+        
+        <footer class="footer"> 
+            <p>Desenvolvido por <a href="mailto:joaoluizcienciacomp@gmail.com">João Luiz</a></p>        
+            <p>2024</p>
+                        
+            <div class="redes-sociais">
+                <a href="https://github.com/joaoluizcienciadados"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="ícone Github"></a>
+                <a href="https://www.linkedin.com/in/joaoluizbr/"><img src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png"alt="ícone Linkedin"></a>
+            </div>  
+
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
